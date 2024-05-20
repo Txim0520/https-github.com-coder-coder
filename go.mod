@@ -96,7 +96,7 @@ require (
 	github.com/coder/flog v1.1.0
 	github.com/coder/pretty v0.0.0-20230908205945-e89ba86370e0
 	github.com/coder/retry v1.5.1
-	github.com/coder/terraform-provider-coder v0.18.0
+	github.com/coder/terraform-provider-coder v0.22.0
 	github.com/coder/wgtunnel v0.1.13-0.20231127054351-578bfff9b92a
 	github.com/coreos/go-oidc/v3 v3.10.0
 	github.com/coreos/go-systemd v0.0.0-20191104093116-d3cd4ed1dbcf
@@ -183,7 +183,7 @@ require (
 	golang.org/x/crypto v0.21.0
 	golang.org/x/exp v0.0.0-20240222234643-814bf88cf225
 	golang.org/x/mod v0.16.0
-	golang.org/x/net v0.22.0
+	golang.org/x/net v0.23.0
 	golang.org/x/oauth2 v0.18.0
 	golang.org/x/sync v0.6.0
 	golang.org/x/sys v0.18.0
