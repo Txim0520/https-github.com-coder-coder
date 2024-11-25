@@ -142,7 +142,7 @@ jobs:
 
       # Check for any typos
       - name: Check for typos
-        uses: crate-ci/typos@v1.19.0
+        uses: crate-ci/typos@v1.27.3
         with:
           config: .github/workflows/typos.toml
 
@@ -308,7 +308,7 @@ jobs:
           api-key: ${{ secrets.DATADOG_API_KEY }}
 
       - name: Check code coverage
-        uses: codecov/codecov-action@v4
+        uses: codecov/codecov-action@v5
         # This action has a tendency to error out unexpectedly, it has
         # the `fail_ci_if_error` option that defaults to `false`, but
         # that is no guarantee, see:
@@ -356,7 +356,7 @@ jobs:
           api-key: ${{ secrets.DATADOG_API_KEY }}
 
       - name: Check code coverage
-        uses: codecov/codecov-action@v4
+        uses: codecov/codecov-action@v5
         # This action has a tendency to error out unexpectedly, it has
         # the `fail_ci_if_error` option that defaults to `false`, but
         # that is no guarantee, see:
@@ -415,7 +415,7 @@ jobs:
         working-directory: site
 
       - name: Check code coverage
-        uses: codecov/codecov-action@v4
+        uses: codecov/codecov-action@v5
         # This action has a tendency to error out unexpectedly, it has
         # the `fail_ci_if_error` option that defaults to `false`, but
         # that is no guarantee, see:
@@ -514,7 +514,7 @@ jobs:
       # the check to pass. This is desired in PRs, but not in mainline.
       - name: Publish to Chromatic (non-mainline)
         if: github.ref != 'refs/heads/main' && github.repository_owner == 'coder'
-        uses: chromaui/action@v10
+        uses: chromaui/action@v11
         env:
           NODE_OPTIONS: "--max_old_space_size=4096"
           STORYBOOK: true
@@ -545,7 +545,7 @@ jobs:
       # infinitely "in progress" in mainline unless we re-review each build.
       - name: Publish to Chromatic (mainline)
         if: github.ref == 'refs/heads/main' && github.repository_owner == 'coder'
-        uses: chromaui/action@v10
+        uses: chromaui/action@v11
         env:
           NODE_OPTIONS: "--max_old_space_size=4096"
           STORYBOOK: true
