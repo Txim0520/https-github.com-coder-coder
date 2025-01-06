@@ -74,7 +74,7 @@ replace github.com/pkg/sftp => github.com/mafredri/sftp v1.13.6-0.20231212144145
 
 require (
 	cdr.dev/slog v1.6.2-0.20240126064726-20367d4aede6
-	cloud.google.com/go/compute/metadata v0.2.3
+	cloud.google.com/go/compute/metadata v0.3.0
 	github.com/AlecAivazis/survey/v2 v2.3.5
 	github.com/acarl005/stripansi v0.0.0-20180116102854-5a71ef0e047d
 	github.com/adrg/xdg v0.4.0
@@ -184,7 +184,7 @@ require (
 	golang.org/x/exp v0.0.0-20240222234643-814bf88cf225
 	golang.org/x/mod v0.16.0
 	golang.org/x/net v0.22.0
-	golang.org/x/oauth2 v0.18.0
+	golang.org/x/oauth2 v0.25.0
 	golang.org/x/sync v0.6.0
 	golang.org/x/sys v0.18.0
 	golang.org/x/term v0.18.0
@@ -223,7 +223,6 @@ require (
 )
 
 require (
-	cloud.google.com/go/compute v1.23.4 // indirect
 	cloud.google.com/go/logging v1.9.0 // indirect
 	cloud.google.com/go/longrunning v0.5.5 // indirect
 	filippo.io/edwards25519 v1.0.0 // indirect
