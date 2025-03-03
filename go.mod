@@ -146,7 +146,7 @@ require (
 	github.com/mitchellh/go-wordwrap v1.0.1
 	github.com/mitchellh/mapstructure v1.5.1-0.20231216201459-8508981c8b6c
 	github.com/moby/moby v25.0.2+incompatible
-	github.com/muesli/termenv v0.15.2
+	github.com/muesli/termenv v0.16.0
 	github.com/open-policy-agent/opa v0.58.0
 	github.com/ory/dockertest/v3 v3.10.0
 	github.com/pion/udp v0.1.4
@@ -186,7 +186,7 @@ require (
 	golang.org/x/net v0.22.0
 	golang.org/x/oauth2 v0.18.0
 	golang.org/x/sync v0.6.0
-	golang.org/x/sys v0.18.0
+	golang.org/x/sys v0.30.0
 	golang.org/x/term v0.18.0
 	golang.org/x/text v0.14.0
 	golang.org/x/tools v0.19.0
@@ -377,7 +377,7 @@ require (
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
 	github.com/riandyrn/otelchi v0.5.1 // indirect
 	github.com/richardartoul/molecule v1.0.1-0.20221107223329-32cfee06a052 // indirect
-	github.com/rivo/uniseg v0.4.4 // indirect
+	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/satori/go.uuid v1.2.1-0.20181028125025-b2ce2384e17b // indirect
 	github.com/secure-systems-lab/go-securesystemslib v0.7.0 // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
