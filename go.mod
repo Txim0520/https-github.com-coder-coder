@@ -2,6 +2,8 @@ module github.com/coder/coder/v2
 
 go 1.21.4
 
+toolchain go1.24.1
+
 // Required until https://github.com/hashicorp/terraform-config-inspect/pull/74 is merged.
 replace github.com/hashicorp/terraform-config-inspect => github.com/kylecarbs/terraform-config-inspect v0.0.0-20211215004401-bbc517866b88
 
@@ -145,7 +147,7 @@ require (
 	github.com/mattn/go-isatty v0.0.20
 	github.com/mitchellh/go-wordwrap v1.0.1
 	github.com/mitchellh/mapstructure v1.5.1-0.20231216201459-8508981c8b6c
-	github.com/moby/moby v25.0.2+incompatible
+	github.com/moby/moby v28.0.4+incompatible
 	github.com/muesli/termenv v0.15.2
 	github.com/open-policy-agent/opa v0.58.0
 	github.com/ory/dockertest/v3 v3.10.0
