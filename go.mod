@@ -1,6 +1,7 @@
 module github.com/coder/coder/v2
 
 go 1.21.4
+toolchain go1.24.1
 
 // Required until https://github.com/hashicorp/terraform-config-inspect/pull/74 is merged.
 replace github.com/hashicorp/terraform-config-inspect => github.com/kylecarbs/terraform-config-inspect v0.0.0-20211215004401-bbc517866b88
@@ -82,7 +83,7 @@ require (
 	github.com/andybalholm/brotli v1.1.0
 	github.com/armon/circbuf v0.0.0-20190214190532-5111143e8da2
 	github.com/awalterschulze/gographviz v2.0.3+incompatible
-	github.com/aws/smithy-go v1.20.1
+	github.com/aws/smithy-go v1.22.2
 	github.com/bgentry/speakeasy v0.1.1-0.20220910012023-760eaf8b6816
 	github.com/bramvdbogaerde/go-scp v1.3.0
 	github.com/briandowns/spinner v1.18.1
@@ -214,7 +215,7 @@ require (
 
 require (
 	github.com/DataDog/go-libddwaf/v2 v2.3.1 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.11.1 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.12.3 // indirect
 	github.com/go-jose/go-jose/v4 v4.0.1 // indirect
 	github.com/mitchellh/hashstructure v1.1.0 // indirect
 	github.com/pion/transport/v2 v2.0.0 // indirect
@@ -248,19 +249,19 @@ require (
 	github.com/anmitsu/go-shlex v0.0.0-20200514113438-38f4b401e2be // indirect
 	github.com/apparentlymart/go-textseg/v15 v15.0.0 // indirect
 	github.com/armon/go-radix v1.0.1-0.20221118154546-54df44f2176c // indirect
-	github.com/aws/aws-sdk-go-v2 v1.26.0
-	github.com/aws/aws-sdk-go-v2/config v1.27.7
-	github.com/aws/aws-sdk-go-v2/credentials v1.17.7 // indirect
-	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.15.3 // indirect
+	github.com/aws/aws-sdk-go-v2 v1.36.3
+	github.com/aws/aws-sdk-go-v2/config v1.29.13
+	github.com/aws/aws-sdk-go-v2/credentials v1.17.66 // indirect
+	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.16.30 // indirect
 	github.com/aws/aws-sdk-go-v2/feature/rds/auth v1.4.3
-	github.com/aws/aws-sdk-go-v2/internal/configsources v1.3.3 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.6.3 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/ini v1.8.0 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.11.5 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/configsources v1.3.34 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.6.34 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/ini v1.8.3 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.12.15 // indirect
 	github.com/aws/aws-sdk-go-v2/service/ssm v1.49.3 // indirect
-	github.com/aws/aws-sdk-go-v2/service/sso v1.20.2 // indirect
-	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.23.2 // indirect
-	github.com/aws/aws-sdk-go-v2/service/sts v1.28.4 // indirect
+	github.com/aws/aws-sdk-go-v2/service/sso v1.25.3 // indirect
+	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.30.1 // indirect
+	github.com/aws/aws-sdk-go-v2/service/sts v1.33.18 // indirect
 	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect
 	github.com/aymerick/douceur v0.2.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
