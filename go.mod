@@ -1,6 +1,6 @@
 module github.com/coder/coder/v2
 
-go 1.21.4
+go 1.24.0
 
 // Required until https://github.com/hashicorp/terraform-config-inspect/pull/74 is merged.
 replace github.com/hashicorp/terraform-config-inspect => github.com/kylecarbs/terraform-config-inspect v0.0.0-20211215004401-bbc517866b88
@@ -119,7 +119,7 @@ require (
 	github.com/go-logr/logr v1.4.1
 	github.com/go-ping/ping v1.1.0
 	github.com/go-playground/validator/v10 v10.19.0
-	github.com/gofrs/flock v0.8.1
+	github.com/gofrs/flock v0.13.0
 	github.com/gohugoio/hugo v0.124.0
 	github.com/golang-jwt/jwt/v4 v4.5.0
 	github.com/golang-migrate/migrate/v4 v4.17.0
@@ -162,7 +162,7 @@ require (
 	github.com/spf13/afero v1.11.0
 	github.com/spf13/pflag v1.0.5
 	github.com/sqlc-dev/pqtype v0.3.0
-	github.com/stretchr/testify v1.9.0
+	github.com/stretchr/testify v1.11.1
 	github.com/swaggo/http-swagger/v2 v2.0.1
 	github.com/swaggo/swag v1.16.2
 	github.com/tidwall/gjson v1.17.0
@@ -186,7 +186,7 @@ require (
 	golang.org/x/net v0.22.0
 	golang.org/x/oauth2 v0.18.0
 	golang.org/x/sync v0.6.0
-	golang.org/x/sys v0.18.0
+	golang.org/x/sys v0.37.0
 	golang.org/x/term v0.18.0
 	golang.org/x/text v0.14.0
 	golang.org/x/tools v0.19.0
