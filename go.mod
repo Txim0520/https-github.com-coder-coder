@@ -208,7 +208,7 @@ require go.uber.org/mock v0.4.0
 
 require (
 	github.com/benbjohnson/clock v1.3.5
-	github.com/coder/serpent v0.7.0
+	github.com/coder/serpent v0.12.0
 	github.com/gomarkdown/markdown v0.0.0-20231222211730-1d6d20845b47
 )
 
@@ -219,6 +219,7 @@ require (
 	github.com/mitchellh/hashstructure v1.1.0 // indirect
 	github.com/pion/transport/v2 v2.0.0 // indirect
 	github.com/tdewolff/test v1.0.11-0.20240106005702-7de5f7df4739 // indirect
+	github.com/xhit/go-str2duration/v2 v2.1.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.49.0 // indirect
 )
 
