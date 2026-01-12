@@ -97,7 +97,7 @@ require (
 	github.com/coder/pretty v0.0.0-20230908205945-e89ba86370e0
 	github.com/coder/retry v1.5.1
 	github.com/coder/terraform-provider-coder v0.18.0
-	github.com/coder/wgtunnel v0.1.13-0.20231127054351-578bfff9b92a
+	github.com/coder/wgtunnel v0.2.0
 	github.com/coreos/go-oidc/v3 v3.10.0
 	github.com/coreos/go-systemd v0.0.0-20191104093116-d3cd4ed1dbcf
 	github.com/creack/pty v1.1.21
@@ -198,7 +198,7 @@ require (
 	gopkg.in/DataDog/dd-trace-go.v1 v1.61.0
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1
 	gopkg.in/yaml.v3 v3.0.1
-	gvisor.dev/gvisor v0.0.0-20230504175454-7b0a1988a28f
+	gvisor.dev/gvisor v0.0.0-20230927004350-cbd86285d259
 	nhooyr.io/websocket v1.8.7
 	storj.io/drpc v0.0.33
 	tailscale.com v1.46.1
@@ -213,6 +213,7 @@ require (
 )
 
 require (
+	cdr.dev/slog/v3 v3.0.0-rc1 // indirect
 	github.com/DataDog/go-libddwaf/v2 v2.3.1 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.11.1 // indirect
 	github.com/go-jose/go-jose/v4 v4.0.1 // indirect
@@ -389,7 +390,7 @@ require (
 	github.com/tailscale/golang-x-crypto v0.0.0-20230713185742-f0b76a10a08e // indirect
 	github.com/tailscale/goupnp v1.0.1-0.20210804011211-c64d0f06ea05 // indirect
 	github.com/tailscale/netlink v1.1.1-0.20211101221916-cabfb018fe85 // indirect
-	github.com/tailscale/wireguard-go v0.0.0-20230710185534-bb2c8f22eccf // indirect
+	github.com/tailscale/wireguard-go v0.0.0-20231121184858-cc193a0b3272 // indirect
 	github.com/tchap/go-patricia/v2 v2.3.1 // indirect
 	github.com/tcnksm/go-httpstat v0.2.0 // indirect
 	github.com/tdewolff/parse/v2 v2.7.12 // indirect

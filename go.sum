@@ -1,5 +1,7 @@
 cdr.dev/slog v1.6.2-0.20240126064726-20367d4aede6 h1:KHblWIE/KHOwQ6lEbMZt6YpcGve2FEZ1sDtrW1Am5UI=
 cdr.dev/slog v1.6.2-0.20240126064726-20367d4aede6/go.mod h1:NaoTA7KwopCrnaSb0JXTC0PTp/O/Y83Lndnq0OEV3ZQ=
+cdr.dev/slog/v3 v3.0.0-rc1 h1:EN7Zim6GvTpAeHQjI0ERDEfqKbTyXRvgH4UhlzLpvWM=
+cdr.dev/slog/v3 v3.0.0-rc1/go.mod h1:iO/OALX1VxlI03mkodCGdVP7pXzd2bRMvu3ePvlJ9ak=
 cloud.google.com/go v0.26.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw=
 cloud.google.com/go/compute v1.23.4 h1:EBT9Nw4q3zyE7G45Wvv3MzolIrCJEuHys5muLY0wvAw=
 cloud.google.com/go/compute v1.23.4/go.mod h1:/EJMj55asU6kAFnuZET8zqgwgJ9FvXWXOkkfQZa4ioI=
@@ -224,8 +226,8 @@ github.com/coder/tailscale v1.1.1-0.20240214140224-3788ab894ba1 h1:A7dZHNidAVH6K
 github.com/coder/tailscale v1.1.1-0.20240214140224-3788ab894ba1/go.mod h1:L8tPrwSi31RAMEMV8rjb0vYTGs7rXt8rAHbqY/p41j4=
 github.com/coder/terraform-provider-coder v0.18.0 h1:JWSBsOuzyiCev3C2Aj8Y1dvJkm5JMysIrIylMJtzPAY=
 github.com/coder/terraform-provider-coder v0.18.0/go.mod h1:pACHRoXSHBGyY696mLeQ1hR/Ag1G2wFk5bw0mT5Zp2g=
-github.com/coder/wgtunnel v0.1.13-0.20231127054351-578bfff9b92a h1:KhR9LUVllMZ+e9lhubZ1HNrtJDgH5YLoTvpKwmrGag4=
-github.com/coder/wgtunnel v0.1.13-0.20231127054351-578bfff9b92a/go.mod h1:QzfptVUdEO+XbkzMKx1kw13i9wwpJlfI1RrZ6SNZ0hA=
+github.com/coder/wgtunnel v0.2.0 h1:yy9dE9ntoNdx/q98CH9uV2cQk1UEKSwPgITy3Xx+Wiw=
+github.com/coder/wgtunnel v0.2.0/go.mod h1:4Ne8vzzdHwkM9BnPW2zDvidvFi5IfEbkecx5JH+0zjY=
 github.com/coder/wireguard-go v0.0.0-20230807234434-d825b45ccbf5 h1:eDk/42Kj4xN4yfE504LsvcFEo3dWUiCOaBiWJ2uIH2A=
 github.com/coder/wireguard-go v0.0.0-20230807234434-d825b45ccbf5/go.mod h1:QRIcq2+DbdIC5sKh/gcAZhuqu6WT6L6G8/ALPN5wqYw=
 github.com/coder/wireguard-go v0.0.0-20230920225835-b7d43c468619 h1:Ug4+d7ooZNjQPVHL+zrHF2hLCr0FOpxHdB2Urr77VmY=
