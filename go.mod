@@ -1,6 +1,6 @@
 module github.com/coder/coder/v2
 
-go 1.21.4
+go 1.24
 
 // Required until https://github.com/hashicorp/terraform-config-inspect/pull/74 is merged.
 replace github.com/hashicorp/terraform-config-inspect => github.com/kylecarbs/terraform-config-inspect v0.0.0-20211215004401-bbc517866b88
@@ -82,7 +82,7 @@ require (
 	github.com/andybalholm/brotli v1.1.0
 	github.com/armon/circbuf v0.0.0-20190214190532-5111143e8da2
 	github.com/awalterschulze/gographviz v2.0.3+incompatible
-	github.com/aws/smithy-go v1.20.1
+	github.com/aws/smithy-go v1.24.2
 	github.com/bgentry/speakeasy v0.1.1-0.20220910012023-760eaf8b6816
 	github.com/bramvdbogaerde/go-scp v1.3.0
 	github.com/briandowns/spinner v1.18.1
