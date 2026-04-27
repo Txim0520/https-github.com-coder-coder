@@ -119,7 +119,7 @@ module "git-clone" {
 
 module "personalize" {
   source   = "registry.coder.com/modules/personalize/coder"
-  version  = "1.0.2"
+  version  = "1.0.32"
   agent_id = coder_agent.dev.id
 }
 
