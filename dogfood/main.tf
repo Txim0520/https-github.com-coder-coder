@@ -111,7 +111,7 @@ module "dotfiles" {
 
 module "git-clone" {
   source   = "registry.coder.com/modules/git-clone/coder"
-  version  = "1.0.2"
+  version  = "1.3.0"
   agent_id = coder_agent.dev.id
   url      = "https://github.com/coder/coder"
   base_dir = local.repo_base_dir
