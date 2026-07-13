@@ -125,7 +125,7 @@ module "personalize" {
 
 module "code-server" {
   source   = "registry.coder.com/modules/code-server/coder"
-  version  = "1.0.8"
+  version  = "1.5.1"
   agent_id = coder_agent.dev.id
   folder   = local.repo_dir
 }
